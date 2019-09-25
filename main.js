@@ -90,7 +90,7 @@ function createHTMLElementResult(response) {
   for (var i = 0; i < response.issues.length; i++) {
     var summary = response.issues[i].fields.summary;
     var item = document.createElement('li');
-    item.innerHTML = summary;
+    item.innerHTML = "Ticket Summary: " + summary;
     list.appendChild(item);
   }
 

@@ -98,7 +98,7 @@ function createHTMLElementResult(response) {
   if (list.childNodes.length > 0) {
     return feedResultDiv.innerHTML = list.outerHTML;
   } else {
-    return feedResultDiv.innerHTML = 'There are no activity results.'; 
+    return feedResultDiv.innerHTML = 'There are no ticket results for this query.'; 
   }
 
 }
